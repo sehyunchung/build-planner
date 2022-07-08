@@ -11,6 +11,7 @@
     "start": "cross-env NODE_ENV=production miniflare ./build/index.js"
   },
   "dependencies": {
+    "@prisma/client": "4.0.0",
     "@remix-run/cloudflare": "^1.6.4",
     "@remix-run/cloudflare-workers": "^1.6.4",
     "@remix-run/react": "^1.6.4",
@@ -30,6 +31,7 @@
     "miniflare": "^2.4.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
+    "prisma": "^4.0.0",
     "tailwindcss": "^3.1.5",
     "typescript": "^4.6.4"
   },
