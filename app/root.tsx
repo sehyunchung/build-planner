@@ -1,4 +1,4 @@
-import type { LinksFunction, MetaFunction } from "@remix-run/cloudflare";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -8,7 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import styles from "./styles/app.css";
+import styles from "~/styles/app.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
